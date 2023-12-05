@@ -1,0 +1,6 @@
+- Browers calls "https://studies.cs.helsinki.fi/exampleapp/spa"
+- Server responds with spa.html 
+- Browser renders spa.html, calls main.css from "https://studies.cs.helsinki.fi/exampleapp/spa" contained in head
+- Browser calls data using main.js which runs a get request to endpoint "/exampleapp/data.json" and receives data 
+- Browser dynamicalls creates a 'UL' and pends data from server to "LI" 
+- Page loaded
